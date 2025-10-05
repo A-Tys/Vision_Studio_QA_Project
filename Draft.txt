@@ -1,0 +1,9 @@
+V-Shop, Shop, Portal, Admin Panel. 
+
+1. V-Shop includes: Categories, Bot, Products, Price list, (!) Price update, Skroutz check, Export to Excel, Updates / Bugs, Demo features, Manufacturers, V-Shop Clients, Orders. 
+
+2. Shop includes: Offers, Orders, Warehouse, Purchase documents, Sales documents, Calendar, Customer list, Balances, Couriers, Skroutz Couriers, Credits, Receipts, Payments / Proceeds, Banks, RMA, Internal Service, External Service, Daily cash. 
+
+3. Portal includes: Catalog, List, News, Contact, Cooperation, Comments, Banners, Files, Mailing List, Manual, Statistics, Reports, Ban List. 
+
+4. Admin Panel includes: Users, Scripts, Settings, Errors, Logs, Database, Technical Manual. There's also a fifth category 'System' that is empty. In addition there are other functionalities like: Messages, Live Chat, HelpDesk, Notebook.
