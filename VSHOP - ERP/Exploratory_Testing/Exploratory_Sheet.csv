@@ -1,15 +1,15 @@
 Session ID,Tester,Date,Module / Area,Description / Focus,Start Time,End Time,Notes / Observations
 ,,,,,,,
 Accountant,,,,,,,
-EXP_001,Tys,,Payments,Record customer payments; check daily cash balance impact,,,
-EXP_002,Tys,,Receipts,Issue receipts for payments; validate proper documentation,,,
-EXP_003,Tys,,Payments & Credits,Track payments and proceeds by date and customer; verify accurate financial reporting,,,
-EXP_004,Tys,,Orders,Look up orders by ID; initialize prepayments; verify payment status,,,
-EXP_005,Tys,,Bank,Record bank deposits/withdrawals; reconcile with system records,,,
-EXP_006,Tys,,Credits,Manage customer credits; apply payments to credits automatically,,,
-EXP_007,Tys,,Daily Cash,Verify daily cash balance; generate daily cash reports,,,
-EXP_008,Tys,,Reporting,Export financial data to Excel/PDF; track transactions by type,,,
-EXP_009,Tys,,Marketplace Reconciliation,Reconcile PDF marketplace orders; update client balances efficiently,,,
+EXP_001,Tys,06/01/26,Payments,Record customer payments; check daily cash balance impact,,,"Payments can be recorded through three system paths: customer search and balance editing, SHOP ? Customer Balance, or SHOP ? Orders with filtering by status or order ID. Daily cash balance review is available only via the Admin Panel through banking account status and is restricted to the Company Owner role."
+EXP_002,Tys,06/01/26,Receipts,Issue receipts for payments; validate proper documentation,,,"Receipts are generated automatically and opened in a new browser tab (e.g. http://37.98.196.167:8800/cgi-bin/GR/print_agores.asp?pid=70380). The system does not provide built-in functionality to send, save, or print receipts. All such actions must be performed using the browser’s native functions."
+EXP_003,Tys,06/01/26,Payments & Credits,Track payments and proceeds by date and customer,,,Tracking of payments and proceeds by date and by customer is available in the system and functions as expected.
+EXP_004,Tys,06/01/26,Orders,Look up orders by ID; initialize prepayments; verify payment status,,,"Functionality to look up orders by ID, initialize prepayments, and verify payment status is available in the system. The required actions can be completed through multiple navigation paths, which makes the overall navigation relatively complex."
+EXP_005,Tys,06/01/26,Bank,Record bank deposits/withdrawals; reconcile with system records,,,Access to banking-related features is restricted to the Company Owner role and is not available to the Accountant role.
+EXP_006,Tys,06/01/26,Credits,Manage customer credits; apply payments to credits automatically,,,"Customer credits can be managed by the Accountant role; however, payments are not applied to credits automatically. A credit limit of ˆ500 is enforced for the Accountant role. Credits exceeding this limit must be applied by the Company Owner role."
+EXP_007,Tys,06/01/26,Daily Cash,Verify daily cash balance; generate daily cash reports,,,"The daily cash balance is verified at the end of the working day when the cashier is closed. The system does not provide a dedicated daily cash report; only a general daily report is available, which is not specific to cash transactions."
+EXP_008,Tys,06/01/26,Reporting,Export financial data to Excel/PDF; track transactions by type,,,The system provides functionality to track financial transactions by type. Generated reports are displayed in a new browser tab and can be exported to Excel or PDF via the browser’s native functions.
+EXP_009,Tys,06/01/26,Marketplace Reconciliation,Reconcile PDF marketplace orders; update client balances efficiently,,,"Marketplace orders and payments received in PDF format are not reconciled automatically with system records. Client balances must be updated manually for each order, which makes the reconciliation process time-consuming."
 ,,,,,,,
 Buyer,,,,,,,
 EXP_010,Tys,,Purchase Documents,Create purchase orders for suppliers; verify correct data entry and order creation,,,
