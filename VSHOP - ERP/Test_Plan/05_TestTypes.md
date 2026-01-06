@@ -2,7 +2,7 @@
 <br>
 <br>
 
-**The following test types will be applied during the evaluation of VSHOP – OPAS**:
+**The following test types will be applied during the evaluation of VSHOP – ERP**:
 <br>
 <br>
 

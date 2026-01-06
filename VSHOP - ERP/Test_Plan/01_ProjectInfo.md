@@ -1,10 +1,10 @@
-## Project Information (VSHOP – OPAS)
+## Project Information (VSHOP – ERP)
 
 
 
 **Project Name**:
 
-VSHOP – Online Portal Administration System (OPAS)
+VSHOP – ERP (Enterprise Resource Planning)
 <br>
 
 **Version**: 3.0
@@ -15,7 +15,7 @@ VSHOP – Online Portal Administration System (OPAS)
 
 **Description**:
 
-VSHOP – OPAS is a Retail Management System used for managing orders, clients, stock, products, and other operational tasks. The system also includes a public-facing website (visionstudio.gr) and an Admin Panel for user and system management. The software is currently out of date and requires evaluation to identify:
+VSHOP – ERP is a Retail Management System used for managing orders, clients, stock, products, and other operational tasks. The system also includes a public-facing website (visionstudio.gr) and an Admin Panel for user and system management. The software is currently out of date and requires evaluation to identify:
 
 * Functionalities that work as expected
 * Features that do not work or behave differently than expected

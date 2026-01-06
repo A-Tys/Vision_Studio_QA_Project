@@ -2,7 +2,7 @@
 <br>
 <br>
 
-The testing scope defines what will be covered and what will not be covered during the quality assessment of the VSHOP – Online Portal Administration System (OPAS).
+The testing scope defines what will be covered and what will not be covered during the quality assessment of the VSHOP – ERP (Enterprise Resource Planning).
 <br>
 <br>
 <br>

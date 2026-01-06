@@ -2,7 +2,7 @@
 <br>
 <br>
 
-The testing activities for VSHOP – OPAS will be performed on the production-like environment currently used by the organization. Since the system is out of date and no dedicated testing environment is available, the evaluation will be carried out directly on the existing system with test data where possible.
+The testing activities for VSHOP – ERP will be performed on the production-like environment currently used by the organization. Since the system is out of date and no dedicated testing environment is available, the evaluation will be carried out directly on the existing system with test data where possible.
 <br>
 <br>
 <br>
@@ -13,7 +13,7 @@ The testing activities for VSHOP – OPAS will be performed on the production-li
 
 * Browsers: Google Chrome (latest stable version), Microsoft Edge, Mozilla Firefox.
 
-* Database: Microsoft SQL Server (used by VSHOP – OPAS).
+* Database: Microsoft SQL Server (used by VSHOP – ERP).
 
 * Network: Standard office internet connection with access to internal and external services (Skroutz, couriers, payment systems).
 <br>

@@ -6,7 +6,7 @@
 
 *Testing will begin when the following conditions are met*:
 
-* Access to the VSHOP – OPAS system is provided.
+* Access to the VSHOP – ERP system is provided.
 
 * Test environment (browsers, database connection) is available and stable.
 

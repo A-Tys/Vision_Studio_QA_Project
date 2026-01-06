@@ -2,7 +2,7 @@
 <br>
 <br>
 
-The following deliverables will be produced during the testing of VSHOP – OPAS:
+The following deliverables will be produced during the testing of VSHOP – ERP:
 <br>
 <br>
 

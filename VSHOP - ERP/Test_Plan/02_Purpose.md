@@ -2,7 +2,8 @@
 <br>
 <br>
 
-The purpose of this testing effort is to evaluate the current version of the VSHOP – Online Portal Administration System (OPAS), which functions as a Retail Management System. The software is outdated and requires a complete quality assessment to identify areas for improvement.
+The purpose of this testing effort is to evaluate the current version of the VSHOP –
+enterprise Resource Planning (ERP), which functions as a Retail Management System. The software is outdated and requires a complete quality assessment to identify areas for improvement.
 <br>
 <br>
 

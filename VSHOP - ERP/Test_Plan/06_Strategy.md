@@ -2,7 +2,7 @@
 <br>
 <br>
 
-*The testing strategy defines the approach and methods for evaluating VSHOP – OPAS.*
+*The testing strategy defines the approach and methods for evaluating VSHOP – ERP.*
 <br>
 <br>
 
