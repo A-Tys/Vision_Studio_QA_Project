@@ -12,16 +12,26 @@ EXP_008,Tys,06/01/26,Reporting,Export financial data to Excel/PDF; track transac
 EXP_009,Tys,06/01/26,Marketplace Reconciliation,Reconcile PDF marketplace orders; update client balances efficiently,,,"Marketplace orders and payments received in PDF format are not reconciled automatically with system records. Client balances must be updated manually for each order, which makes the reconciliation process time-consuming."
 ,,,,,,,
 Buyer,,,,,,,
-EXP_010,Tys,,Purchase Documents,Create purchase orders for suppliers; verify correct data entry and order creation,,,
-EXP_011,Tys,,Purchase Documents,Edit or cancel purchase orders before confirmation; verify restrictions and notifications,,,
-EXP_012,Tys,,Purchase Documents,"Track purchase order status (accepted, shipped, delayed); confirm status changes display properly",,,
-EXP_013,Tys,,Messages,Send and receive messages with suppliers regarding orders; verify message delivery and responses,,,
-EXP_014,Tys,,Warehouse,Check stock levels before placing orders; ensure accuracy of quantities and stock status,,,
-EXP_015,Tys,,Warehouse,Verify notifications for low stock; test timing and reliability of alerts,,,
-EXP_016,Tys,,RMA,Initiate returned merchandise requests; verify linkage with suppliers and stock updates,,,
-EXP_017,Tys,,Internal & External Service,Track service requests related to purchased products; ensure clear status tracking and closure,,,
-EXP_018,Tys,,Price List,Compare prices of the same product from multiple suppliers; test response speed,,,
-EXP_019,Tys,,V-Shop Suppliers,Access supplier contact info; verify ability to reach managers quickly via provided data,,,
+EXP_010,Tys,07/01/26,Purchase Documents,Create purchase orders for suppliers; verify correct data entry and order creation,,,"Purchase order creation is not supported within the VSHOP ERP. Orders are placed externally via a team collaboration platform (e.g., Microsoft Teams), and order correctness is verified through direct communication with suppliers’ managers."
+EXP_011,Tys,07/01/26,Purchase Documents,Edit or cancel purchase orders before confirmation; verify restrictions and notifications,,,"Editing, canceling, and confirming purchase orders are not supported within the VSHOP ERP. These actions are performed externally through communication with suppliers, rather than through system-based purchase order records.
+
+No system-level restrictions, confirmations, or notifications related to purchase order changes are available."
+EXP_012,Tys,07/01/26,Purchase Documents,"Track purchase order status (accepted, shipped, delayed); confirm status changes display properly",,,"Tracking of purchase order status (e.g., accepted, shipped, delayed) is not supported within the VSHOP ERP. Status updates are obtained through direct communication with suppliers’ managers."
+EXP_013,Tys,07/01/26,Messages,Send and receive messages with suppliers regarding orders; verify message delivery and responses,,,"The VSHOP ERP does not provide functionality to send or receive messages with suppliers regarding orders. All order-related communication is performed externally via a team collaboration platform (e.g., Microsoft Teams).
+
+Message delivery and supplier responses are verified outside the system."
+EXP_014,Tys,07/01/26,Warehouse,Check stock levels before placing orders; ensure accuracy of quantities and stock status,,,Stock levels can be reviewed by searching for an item by its ID or by reviewing warehouse stock lists using available filters.
+EXP_015,Tys,07/01/26,Warehouse,Verify notifications for low stock,,,The system does not provide notifications for low stock levels. Stock shortages must be identified manually by reviewing warehouse stock information.
+EXP_016,Tys,07/01/26,RMA,Initiate returned merchandise requests; verify linkage with suppliers and stock updates,,,"Returned merchandise requests are recorded within the system using the RMA module. Communication with suppliers regarding return requests is performed externally via a team collaboration platform, consistent with other supplier-related interactions."
+EXP_017,Tys,07/01/26,Internal & External Service,Track service requests related to purchased products; ensure clear status tracking and closure,,,"The system does not provide functionality to track service requests related to purchased products. Status tracking and closure of service requests are not available within the system.
+
+Service status updates are obtained externally through direct communication with courier services."
+EXP_018,Tys,07/01/26,Price List,Compare prices of the same product from multiple suppliers; test response speed,,,"Direct comparison of prices and availability for the same product across multiple suppliers within the VSHOP ERP requires synchronization with suppliers’ websites or XML stock feeds.
+
+Such synchronization is not available by default and requires additional development and ongoing maintenance. Integration complexity varies by supplier, as some supplier websites are protected against automated parsing."
+EXP_019,Tys,07/01/26,V-Shop Suppliers,Access supplier contact info; verify ability to reach managers quickly via provided data,,,"Supplier contact information is available within the system through dedicated supplier profiles (similar to customer profiles).
+
+For most suppliers (excluding local suppliers), profiles contain contact details, agreement documentation, information on credit lines, delivery times, pricing, and other relevant data"
 ,,,,,,,
 Company Owner,,,,,,,
 EXP_020,Tys,,Reports,View sales statistics and reports; verify accuracy and data completeness,,,
