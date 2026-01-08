@@ -34,15 +34,23 @@ EXP_019,Tys,07/01/26,V-Shop Suppliers,Access supplier contact info; verify abili
 For most suppliers (excluding local suppliers), profiles contain contact details, agreement documentation, information on credit lines, delivery times, pricing, and other relevant data"
 ,,,,,,,
 Company Owner,,,,,,,
-EXP_020,Tys,,Reports,View sales statistics and reports; verify accuracy and data completeness,,,
-EXP_021,Tys,,Reports,"Track order volumes and revenue by day, week, and month; validate date filters and data grouping",,,
-EXP_022,Tys,,Payments,"Review financial summaries (payments, balances, credits); confirm consistent totals across modules",,,
-EXP_023,Tys,,Logs,Monitor user activities and access logs; ensure visibility and accuracy of user actions,,,
-EXP_024,Tys,,Errors,Receive and view notifications of critical system errors; test visibility and alert timing,,,
-EXP_025,Tys,,Products,"Analyze product performance (sales, returns, popularity); confirm report generation and accuracy",,,
-EXP_026,Tys,,Comments,"Review customer feedback and complaints; verify sorting, filtering, and response functionality",,,
-EXP_027,Tys,,Statistics,"Review website traffic statistics, trends, and report export options",,,
-EXP_028,Tys,,News & Banners,Verify news updates and banners reflect current promotions; test editing and publication workflows,,,
+EXP_020,Tys,08/01/26,Reports,View sales statistics and reports; verify accuracy and data completeness,,,"The system provides functionality to generate sales statistics and reports. Generated reports are displayed in a new browser tab. Further actions such as saving, printing, or sharing reports are performed using the browser’s native controls, as no built-in system functionality is provided for these actions."
+EXP_021,Tys,08/01/26,Reports,"Track order volumes and revenue by day, week, and month; validate date filters and data grouping",,,"The system provides functionality to track order volumes and revenue by day, week, and month. Revenue tracking is available only to the Company Owner role.
+
+Date filtering is implemented using the browser’s native calendar control.
+
+Data grouping options depend on the report type. Order-related reports support grouping by supplier and product category. Revenue reports support grouping by bill type (e.g., B2B, B2C)."
+EXP_022,Tys,08/01/26,Payments,"Review financial summaries (payments, balances, credits); confirm consistent totals across modules",,,"Financial summaries for payments, balances, and credits are supported by the system and are accessible only to the Company Owner role."
+EXP_023,Tys,08/01/26,Logs,Monitor user activities and access logs; ensure visibility and accuracy of user actions,,,"The system supports monitoring of user activities and access logs. Navigation through activity logs is limited. The interface does not provide calendar-based or date filtering; navigation is performed via pagination only. For quicker access to specific dates, users manually modify URL parameters."
+EXP_024,Tys,08/01/26,Errors,Receive and view notifications of critical system errors; test visibility and alert timing,,,Notifications for critical system errors are not supported within the system.
+EXP_025,Tys,08/01/26,Products,"Analyze product performance (sales, returns, popularity); confirm report generation and accuracy",,,"The system does not provide built-in functionality to generate reports for product performance analysis (e.g., sales, returns, popularity).
+
+Product performance analysis is performed manually. System users may review product performance data directly in external marketplaces for products sold through those channels."
+EXP_026,Tys,08/01/26,Comments,"Review customer feedback and complaints; verify sorting, filtering, and response functionality",,,"The system does not provide functionality to record, manage, or review customer feedback and complaints.
+
+Customer reviews and feedback are available only through external channels where they are submitted (e.g., Google Business, marketplaces, email)."
+EXP_027,Tys,08/01/26,Statistics,"Review website traffic statistics, trends, and report export options",,,"The system provides limited website traffic statistics. The only traffic-related data available directly in the VSHOP ERP is user traffic grouped by source (e.g., direct website visits, search engine results pages, marketplaces)."
+EXP_028,Tys,08/01/26,News & Banners,Verify news updates and banners reflect current promotions; test editing and publication workflows,,,The system does not provide functionality to manage or publish news updates and promotional banners.
 ,,,,,,,
 HR Manager,,,,,,,
 EXP_029,Tys,,User Management,"Create, edit, or deactivate user accounts; verify proper access rights and updates",,,
