@@ -75,24 +75,24 @@ EXP_061,Tys,17/02/26,Reports,Review daily sales summary; confirm calculation acc
 EXP_062,Tys,17/02/26,Returns,Manage returns and exchanges; validate correct workflows and policy compliance,,,"Returns and exchanges are managed using the RMA module. The Seller can create RMA requests for returned products, which are then processed by the Technician role."
 ,,,,,,,
 Technician,,,,,,,
-EXP_063,Tys,,RMA,Accept defective products under warranty; verify intake workflow and mandatory data fields,,,
-EXP_064,Tys,,RMA,"Issue RMA numbers; confirm uniqueness, proper linking to orders/customers",,,
-EXP_065,Tys,,RMA,"Document condition of returned item (photos, notes); test file upload and evidence tracking",,,
-EXP_066,Tys,,RMA,Send defective items back to producer; verify shipping documentation and status update,,,
-EXP_067,Tys,,RMA,"Track RMA statuses (sent, under repair, returned); confirm accurate state transitions",,,
-EXP_068,Tys,,Internal Service,Diagnose stock items before sale; ensure defective items cannot be sold,,,
-EXP_069,Tys,,Internal Service,"Repair returned products; verify repair logging, cost tracking, and part usage",,,
-EXP_070,Tys,,Internal Service,Record internal repairs in system; confirm visibility in product history and reports,,,
-EXP_071,Tys,,External Service,Send items to external service centers; verify dispatch and tracking fields,,,
-EXP_072,Tys,,External Service,Track external service jobs; confirm return and update statuses,,,
-EXP_073,Tys,,Support,Log customer support requests; ensure categorization and searchability,,,
-EXP_074,Tys,,Support,"Provide technical assistance (phone, email, in-shop); verify communication logging",,,
-EXP_075,Tys,,Support,Search past support interactions; confirm filtering and history accuracy,,,
-EXP_076,Tys,,Coordination,Notify Warehouse Manager when defective item received; validate notification delivery and stock update,,,
-EXP_077,Tys,,Coordination,Update Seller when product repaired/replaced; test notification visibility,,,
-EXP_078,Tys,,Coordination,Share defect trends with Product Manager; confirm report generation and access,,,
-EXP_079,Tys,,Reports,"Generate warranty and repair reports; validate filtering, export, and accuracy",,,
-EXP_080,Tys,,Reports,Keep statistics on repair times and return rates; confirm KPI calculation and visualization,,,
+EXP_063,Tys,18/02/26,RMA,Accept defective products under warranty; verify intake workflow and mandatory data fields,,,"No mandatory fields are enforced when accepting defective products under warranty. The Technician can create RMA requests with minimal information."
+EXP_064,Tys,18/02/26,RMA,"Issue RMA numbers; confirm uniqueness, proper linking to orders/customers",,,"The RMA numbers are generated automatically by the system and are unique. RMA is not linked to the corresponding sales order and customer profile. The Technician must manually record this information."
+EXP_065,Tys,18/02/26,RMA,"Document condition of returned item (photos, notes); test file upload and evidence tracking",,,"The system does not provide functionality to upload photos or other files when documenting the condition of returned items. The Technician can only add text notes to the RMA request. The photos must be stored externally."
+EXP_066,Tys,18/02/26,RMA,Send defective items back to producer; verify shipping documentation and status update,,,"Status updates for items sent back to the producer are performed manually by the Technician. The system does not generate shipping documentation automatically."
+EXP_067,Tys,18/02/26,RMA,"Track RMA statuses (sent, under repair, returned); confirm accurate state transitions",,,"There are only two RMA statuses available in the system: 'Sent' and 'Returned'. There is no separate status for 'Under Repair'. The Technician must manually update the RMA status and write notes about the repair process in the RMA comments section."
+EXP_068,Tys,18/02/26,Internal Service,Diagnose stock items before sale; ensure defective items cannot be sold,,,"The defective items are properly marked and stored in a separate warehouse section. The system prevents selling items marked as defective."
+EXP_069,Tys,18/02/26,Internal Service,"Repair returned products; verify repair logging, cost tracking, and part usage",,,"Cost tracking and part usage logging for internal repairs are not supported by the system."
+EXP_070,Tys,18/02/26,Internal Service,Record internal repairs in system; confirm visibility in product history and reports,,,"Internal repairs are recorded in the system. However, there is no dedicated section in the product history or repair reports."
+EXP_071,Tys,18/02/26,External Service,Send items to external service centers; verify dispatch and tracking fields,,,"Items are sent to external service centers by creating RMA requests. However, there are no dedicated dispatch or tracking fields for external service centers."
+EXP_072,Tys,18/02/26,External Service,Track external service jobs; confirm return and update statuses,,,"Items returned from external service centers are recorded and the status is updated correctly. However, there is no dedicated update status for items under external service."
+EXP_073,Tys,18/02/26,Support,Log customer support requests; ensure categorization and searchability,,,"The requests for customer support are logged and attached to the corresponding customer profile. The requests can be searched by customer name, phone number or date."
+EXP_074,Tys,18/02/26,Support,"Provide technical assistance (phone, email, in-shop); verify communication logging",,,"Technical assistance is provided externally via phone calls, email, or in-shop interactions. The system does not provide built-in functionality for direct communication with customers."
+EXP_075,Tys,18/02/26,Support,Search past support interactions; confirm filtering and history accuracy,,,"Support interactions are logged and can be searched by customer name, phone number or date."
+EXP_076,Tys,18/02/26,Cordination,Notify Warehouse Manager when defective item received; validate notification delivery and stock update,,,"The defective items are marked and stored in a separate warehouse section. The Warehouse Manager manually reviews the stock information to identify defective items."
+EXP_077,Tys,18/02/26,Cordination,Update Seller when product repaired/replaced; test notification visibility,,,"The seller is informed via internal chat when a product is repaired or replaced."
+EXP_078,Tys,18/02/26,Cordination,Share defect trends with Product Manager; confirm report generation and access,,,"Defect trends reports are not available in the system."
+EXP_079,Tys,18/02/26,Reports,"Generate warranty and repair reports; validate filtering, export, and accuracy",,,"Warranty and repair reports can be generated filtered by product type, manufacturer, and date range. The reports are generated in a new browser tab and can be exported to Excel or PDF via the browser's native functions."
+EXP_080,Tys,18/02/26,Reports,Keep statistics on repair times and return rates; confirm KPI calculation and visualization,,,"No KPI calculation or visualization functionality is provided by the system. The statistics on repair times and return rates can be reviewed manually by filtering RMA records by date and product type."
 ,,,,,,,
 Warehouse Manager,,,,,,,
 EXP_081,Tys,,Inventory,Monitor current stock levels; verify accuracy and synchronization with sales and purchasing modules,,,
@@ -111,3 +111,5 @@ EXP_090,Tys,,,,,,"The system uses JavaScript written according to older standard
 EXP_091,Tys,,,,,,"The DOM is manipulated manually without using modern frameworks or libraries. The system JS code relies on direct DOM manipulation via standard methods like `getElementById`."
 EXP_092,Tys,,,,,,"The system contains multiple pages that return HTTP 404 (Not Found) responses, and broken links which lead to dead-end navigation paths."
 EXP_093,Tys,,,,,,"Under current test conditions, LCP values were consistently above 2.5 seconds on data-intensive pages (product catalogs, customer lists, and price list update screens). This indicates potential performance bottlenecks when handling large datasets."
+EXP_094,Tys,,,,,,"Some critical system actions can be performed without preventive confirmation dialogs/prompts or warning messages. E.g. entire product categories can be deleted with a single action by any user with access to the module; the order cancellation process does not include any confirmation steps."
+EXP_095,Tys,,,,,,"The system is served over HTTP without TLS encryption. No modern security headers are present (Content-Security-Policy, Strict-Transport-Security, X-Content-Type-Options, X-Frame-Options, Referrer-Policy). Session cookies are not configured with Secure, HttpOnly, or SameSite attributes. This exposes the system to man-in-the-middle attacks, session hijacking, cross-site scripting, clickjacking, and CSRF risks."
